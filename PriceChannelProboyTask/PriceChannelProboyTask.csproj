@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ScriptSolution">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\ETS\ScriptSolution.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceEts">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\ETS\SourceEts.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
