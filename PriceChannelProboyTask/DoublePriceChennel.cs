@@ -10,9 +10,6 @@ namespace PriceChannelProboyTask
         public CreateInidicator priceChannelFast = new CreateInidicator(EnumIndicators.PriceChannel, 0, "Быстрый");
         public CreateInidicator priceChannelSlow = new CreateInidicator(EnumIndicators.PriceChannel, 0, "Медленный");
 
-        //public ParamOptimization channelFast = new ParamOptimization(value: 5, startStep: 5, endStep: 15, stepOptimization: 2, nameParam: "Малый период");
-        //public ParamOptimization channelSlow = new ParamOptimization(value: 10, startStep: 10, endStep: 25, stepOptimization: 2, nameParam: "Большой период");
-        
         public ParamOptimization minDistance = new ParamOptimization(value: 10, startStep: 10, endStep: 30, stepOptimization: 5, nameParam: "Минимальное расстояние");
         public ParamOptimization maxDistance = new ParamOptimization(value: 50, startStep: 50, endStep: 100, stepOptimization: 5, nameParam: "Максимальное расстояние");
 
